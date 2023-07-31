@@ -738,6 +738,7 @@ learn:
   becoming-a-better-programmer-title: より優れたプログラマーになる
   debugging-title: デバッグ
   debugging: すべての人に向けたデバッグのフィールドガイド。
+  debugging-url: ja/
   optimizing-title: パフォーマンスのための p5.js コードの最適化
   optimizing: コードをより速く、スムーズに実行するための最適化のためのヒントやトリックのチュートリアル。
   test-driven-development-title: ユニットテストとテスト駆動開発

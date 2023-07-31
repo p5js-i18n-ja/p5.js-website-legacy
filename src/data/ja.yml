@@ -73,7 +73,7 @@ copyright:
   copyright-title: Copyright Information
   copyright1: >-
     The p5.js library is free software; you can redistribute it and/or modify it
-    under the terms of the 
+    under the terms of the
   copyright2: ' as published by the Free Software Foundation, version 2.1.'
   copyright3: 'The Reference for the language is under a '
   copyright4: ' license which makes it possible to reuse this content for non-commercial purposes if it is credited.'
@@ -646,15 +646,15 @@ learn:
     以下は、赤色を表示するだけの非常にシンプルなフラグメントシェーダーです:
   getting-started-in-webgl-shaders-p10x1: >-
     フラグメントシェーダーは、float の 'precision' を指定する行で始まります。この値は、<a
-    class="code">lowp</a>、<a class="code">mediump</a>、<a class="code">highp</a> 
+    class="code">lowp</a>、<a class="code">mediump</a>、<a class="code">highp</a>
     のいずれかになりますが、通常は <a class="code">mediump</a> を使用し、特定の状況では <a
     class="code">highp</a> を使用することがあります。
   getting-started-in-webgl-shaders-p11x1: >-
     そして、頂点シェーダーと同様に、フラグメントシェーダーにも <a class="code">main()</a> 関数が必要ですが、<a
-    class="code">gl_Position</a> ではなく、<a class="code">gl_FragColor</a> 
+    class="code">gl_Position</a> ではなく、<a class="code">gl_FragColor</a>
     に色を割り当てます。
   getting-started-in-webgl-shaders-p12x1: >-
-    変数 <a class="code">myColor</a> は <a class="code">vec4</a> 
+    変数 <a class="code">myColor</a> は <a class="code">vec4</a>
     として定義されており、4つの値を格納します。色を扱っているので、それらの4つの値は赤、緑、青、アルファです。シェーダーでは、スケッチで使用される0
     から255の色を使用せず、0.0から1.0の間の値を使用します。
   getting-started-in-webgl-shaders-p13x1: >-
@@ -664,7 +664,7 @@ learn:
   getting-started-in-webgl-shaders-p14x1: >-
     このようなシンプルなシェーダーは、それ自体で役立つことがありますが、p5.js スケッチからシェーダーに変数を伝達する必要がある場合もあります。
     ここでユニフォームが登場します。ユニフォームは、スケッチからシェーダーに送信できる特殊な変数です。
-    これにより、シェーダーをより制御できるようになります。例えば、p5.js のメソッド <a class="code">millis()</a> 
+    これにより、シェーダーをより制御できるようになります。例えば、p5.js のメソッド <a class="code">millis()</a>
     を使用して「time」ユニフォームをスケッチに渡し、動きを導入することができます。シェーダーでは、ユニフォームはファイルの先頭、<a
     class="code">main()</a> の外部で定義されます。
     次のフラグメントシェーダーでは、スケッチから色を変更できるようにするためのカラーユニフォーム、<a class="code">myColor</a>
@@ -738,6 +738,7 @@ learn:
   becoming-a-better-programmer-title: より優れたプログラマーになる
   debugging-title: デバッグ
   debugging: すべての人に向けたデバッグのフィールドガイド。
+  debugging-url: ja/
   optimizing-title: パフォーマンスのための p5.js コードの最適化
   optimizing: コードをより速く、スムーズに実行するための最適化のためのヒントやトリックのチュートリアル。
   test-driven-development-title: ユニットテストとテスト駆動開発
